@@ -1,0 +1,123 @@
+{"math_score" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+                 {"sheetname": "2.1",
+                  "index_col" : 0,
+                  "skiprows" : 4,
+                  "parse_cols" : "B,C",
+                  "comments" : "Filas 4 y 6-55  Columnas B y C"}
+                ],
+ "reading_score" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+                    {"sheetname": "2.8",
+                     "index_col" : 0,
+                     "skiprows" : 4,
+                     "parse_cols" : "B,C",
+                     "comments" : "Filas 4 y 6-55  Columnas B y C"}
+                   ],
+ "science_score" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+                    {"sheetname": "2.11",
+                     "index_col" : 0,
+                     "skiprows" : 4,
+                     "parse_cols" : "B,C",
+                     "comments" : "Filas 4 y 6-55  Columnas B y C"}
+                   ],
+ "math_under_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		   {"sheetname": "2.2",
+		    "index_col" : 0,
+		    "skiprows" : 4,
+		    "parse_cols" : "B,C",
+		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		   }
+		  ],
+
+ "math_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		   {"sheetname": "2.2",
+		    "index_col" : 0,
+		    "skiprows" : 4,
+		    "parse_cols" : "B,D",
+		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		   }
+		  ],
+ "math_level_5" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		   {"sheetname": "2.2",
+		    "index_col" : 0,
+		    "skiprows" : 4,
+		    "parse_cols" : "B,H",
+		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		   }
+		  ],
+ "math_level_6" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		   {"sheetname": "2.2",
+		    "index_col" : 0,
+		    "skiprows" : 4,
+		    "parse_cols" : "B,I",
+		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		   }
+		  ],
+ 
+ "science_under_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.12",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,C",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+
+ "science_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.12",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,D",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+ "science_level_5" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.12",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,H",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+ "science_level_6" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.12",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,I",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+
+ "reading_under_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.9",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,C",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+
+ "reading_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.9",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,D",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+ "reading_level_5" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.9",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,H",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ],
+ "reading_level_6" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
+		      {"sheetname": "2.9",
+		       "index_col" : 0,
+		       "skiprows" : 4,
+		       "parse_cols" : "B,I",
+		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
+		      }
+		     ]
+}
