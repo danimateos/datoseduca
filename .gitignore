@@ -1,0 +1,4 @@
+env/
+data/
+*.xls
+.ipynb_checkpoints/
