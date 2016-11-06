@@ -27,7 +27,6 @@
 		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		   }
 		  ],
-
  "math_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
 		   {"sheetname": "2.2",
 		    "index_col" : 0,
@@ -52,7 +51,6 @@
 		    "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		   }
 		  ],
- 
  "science_under_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
 		      {"sheetname": "2.12",
 		       "index_col" : 0,
@@ -61,7 +59,6 @@
 		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		      }
 		     ],
-
  "science_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
 		      {"sheetname": "2.12",
 		       "index_col" : 0,
@@ -86,7 +83,6 @@
 		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		      }
 		     ],
-
  "reading_under_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
 		      {"sheetname": "2.9",
 		       "index_col" : 0,
@@ -95,7 +91,6 @@
 		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		      }
 		     ],
-
  "reading_level_1" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap2-vol1.xlsx?documentId=0901e72b8188af93",
 		      {"sheetname": "2.9",
 		       "index_col" : 0,
@@ -119,5 +114,117 @@
 		       "parse_cols" : "B,I",
 		       "comments" : "Columnas: B, C, D (bajos), H, I (nivel 5 y 6)"
 		      }
-		     ]
+		     ],
+ "repeaters_countries" : ["http://dx.doi.org/10.1787/888932957403",
+			  {"sheetname": "Data_Figure IV.1.4_1",
+			   "index_col" : 0,
+			   "skiprows" : 8,
+			   "parse_cols" : "A,E",
+			   "skip_footer" : 68,
+			   "comments" : "Filas: 9 (encabezados) y países: 10 a 43. Columnas: A, E*100"
+			  }
+			 ],
+ "repeaters_regions" : ["http://dx.doi.org/10.1787/888932957536",
+			{"sheetname": "Table B2.IV.1",
+			 "index_col" : 0,
+			 "skiprows" : 93,
+			 "parse_cols" : "A,T",
+			 "skip_footer" : 58,
+			 "comments" : "Filas: 12/13 (encabezados) y regions: 95 a 108. Columnas: A, T"
+			}
+		       ],
+ "escs_countries" : ["http://dx.doi.org/10.1787/888932964908",
+		     {"sheetname": "Table II.2.1",
+		      "index_col" : 0,
+		      "skiprows" : 13,
+		      "parse_cols" : "A,F",
+		      "skip_footer" : 8,
+		      "comments" : "Filas: 12 (encabezados) y países: 16 a 86. Columnas: A, F"
+		     }
+		    ],
+ "escs_regions" : ["http://dx.doi.org/10.1787/888932964965",
+		   {"sheetname": "Table B2.II.1",
+		    "index_col" : 0,
+		    "skiprows" : 93,
+		    "parse_cols" : "A,F",
+		    "skip_footer" : 63,
+		    "comments" : "Filas: 13 (encabezados) y regions: 95 a 108. Columnas: A, F "
+		   }
+		  ],
+ "math_bottom_escs_countries" : ["http://dx.doi.org/10.1787/888932964908",
+				 {"sheetname": "Table II.2.4b",
+				  "index_col" : 0,
+				  "skiprows" : 14,
+				  "parse_cols" : "A,AF",
+				  "skip_footer" : 4,
+				  "comments" : "Filas: 12 (encabezados) y países: 16 a 86. Columnas: A, AF, AL"
+				 }
+				],
+ "math_top_escs_countries" : ["http://dx.doi.org/10.1787/888932964908",
+			      {"sheetname": "Table II.2.4b",
+			       "index_col" : 0,
+			       "skiprows" : 14,
+			       "parse_cols" : "A,AL",
+			       "skip_footer" : 4,
+			       "comments" : "Filas: 12 (encabezados) y países: 16 a 86. Columnas: A, AF, AL"
+			      }
+			     ],    
+ "math_bottom_escs_regions" : ["http://dx.doi.org/10.1787/888932964965",
+			       {"sheetname": "Table B2.II.2",
+				"index_col" : 0,
+				"skiprows" : 93,
+				"parse_cols" : "A,L",
+				"skip_footer" : 60,
+				"comments" : "Filas: 13 (encabezados) y regions: 95 a 108. Columnas: A, L, R"
+			       }
+			      ],
+ "math_top_escs_regions" : ["http://dx.doi.org/10.1787/888932964965",
+				 {"sheetname": "Table B2.II.2",
+				  "index_col" : 0,
+				  "skiprows" : 93,
+				  "parse_cols" : "A,R",
+				  "skip_footer" : 60,
+				  "comments" : "Filas: 13 (encabezados) y regions: 95 a 108. Columnas: A, L, R"
+				 }
+				],
+ "resilient_countries" : ["http://dx.doi.org/10.1787/888932964908",
+			  {"sheetname": "Table II.2.4b",
+			   "index_col" : 0,
+			   "skiprows" : 14,
+			   "parse_cols" : "A,J",
+			   "skip_footer" : 3,
+			   "comments" : "Table B2.II.2.7a  Filas: 12 (encabezados) países: 16 a 86. Columnas: A, B, J"
+			  }
+			 ],
+ "resilient_regions" : ["http://dx.doi.org/10.1787/888932964965",
+			{"sheetname": "Table B2.II.4 (web)",
+			 "index_col" : 0,
+			 "skiprows" : 93,
+			 "parse_cols" : "A,J",
+			 "skip_footer" : 61,
+			 "comments" : "Table B2.II.4  Filas: 12 (encabezados) y regions: 95 a 108. Columnas: A, B, J"
+			}
+		       ],
+ "math_native_grade" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap3-vol1.xlsx?documentId=0901e72b8188af94",
+			{"sheetname": "3.17",
+			 "index_col" : 0,
+			 "skiprows" : 3,
+			 "parse_cols" : "B,C",
+			 "skip_footer" : 22,
+			 "na_values": "*",
+			 "keep_default_na" : true,
+			 "comments" : "Filas: 4 (encabezados) y países: 6 a 41. Y CCAA 48 a 61 Columnas: C y G"
+			}
+		       ],   
+ "math_migrant_grade" : ["http://www.mecd.gob.es/dctm/inee/internacional/pisa2012/pisa2012-cap3-vol1.xlsx?documentId=0901e72b8188af94",
+			 {"sheetname": "3.17",
+			  "index_col" : 0,
+			  "skiprows" : 3,
+			  "parse_cols" : "B,G",
+			  "skip_footer" : 22,
+			  "na_values": "*",
+			  "keep_default_na" : true,
+			  "comments" : "Filas: 4 (encabezados) y países: 6 a 41. Y CCAA 48 a 61 Columnas: C y G"
+			 }
+                        ]
 }
